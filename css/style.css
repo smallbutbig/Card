@@ -1,0 +1,49 @@
+.parent {
+    position: relative;
+    width: 100px;
+    height: 1000px;
+    margin: 10px;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 807px;
+    height: 200px;
+}
+
+.kongtishi {
+    border: 1px solid #E91E63;
+}
+
+.children {
+    left: -1px;
+    width: 100px;
+    height: 200px;
+    position: absolute;
+    border:2px solid black;
+    border-radius: 10px;
+}
+
+.open {
+    background-color: white;
+}
+
+.back {
+    background-color: aqua;
+}
+
+.tishi {
+    border: 2px solid #E91E63;
+}
+
+.pai {
+    width: 100%;
+    height: 100%;
+    margin-left: 5px;
+    display: inline-block;
+    position: absolute;
+}
+
+.but {
+    margin-left: -5px;
+    transform:rotate(180deg);
+}
